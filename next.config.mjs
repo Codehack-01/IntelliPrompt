@@ -7,7 +7,7 @@ const nextConfig = {
     config.experiments = {
       ...config.experiments,
       topLevelAwait: true,
-    };
+    },
     module.exports = {
       experimental: {
         missingSuspenseWithCSRBailout: false,
