@@ -8,8 +8,14 @@ const nextConfig = {
       ...config.experiments,
       topLevelAwait: true,
     };
+    module.exports = {
+      experimental: {
+        missingSuspenseWithCSRBailout: false,
+      },
+    }
     return config;
   },
+  
 };
 
 export default nextConfig;
