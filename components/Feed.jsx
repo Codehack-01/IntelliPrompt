@@ -68,8 +68,8 @@ const Feed = () => {
   };
 
   return (
-    <section className='feed'>
-      <form className='relative w-full flex-center'>
+    <section className='feed max-h-full'>
+      <form className='relative w-full flex-center max-h-full'>
         
         <input
           type='text'
@@ -77,7 +77,7 @@ const Feed = () => {
           value={searchText}
           onChange={handleSearchChange}
           required
-          className='search_input peer'
+          className='search_input peer max-h-full'
           
 
         />
