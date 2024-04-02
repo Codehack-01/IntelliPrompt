@@ -3,10 +3,12 @@ import '@styles/global.css';
 import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 import { Suspense } from 'react'
+import Head from 'next/head';
 
 export const metadata = {
-    title: "Promptai",
-    description: 'Discover & share AI Prompts'
+    title: "IntelliPrompt",
+    description: 'Compose & discover AI-powered Prompts'
+    
 }
 
 const RootLayout = ({children}) => {
