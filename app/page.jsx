@@ -7,7 +7,7 @@ const Home = () => {
     <section className="w-full flex-center flex-col ">
         <h1 className="head_text text-center font-Bricolage">
             Compose & Discover <br className="max-md:hidden"/>
-            <span className="head_text orange_gradient text-center">AI-Powered Prompts</span>
+            <span className="head_text orange_gradient text-center">AI-Powered Prompt</span>
             
         </h1>
         {/* <span className="head_text orange_gradient text-center">AI-Powered Prompts</span> */}
