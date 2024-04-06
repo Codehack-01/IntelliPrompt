@@ -43,7 +43,8 @@
   top: 0;
   opacity: 0.4;
   filter: none !important;
-  color: #ffffff;
+  color: #000;
+  /* color: #ffffff; */
 }
 
 .gradient {
