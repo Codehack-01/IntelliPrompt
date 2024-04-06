@@ -68,12 +68,12 @@ const Feed = () => {
   };
 
   return (
-    <section className='feed max-h-full'>
-      <form className='relative w-full flex-center max-h-full'>
+    <section className='feed max-w-md mx-auto'>
+      <form className='relative w-full flex-center max-w-md mx-auto'>
         
         <input
           type='text'
-          placeholder='Search for a tag or a user'
+          placeholder='Search for a tag or a usernam'
           value={searchText}
           onChange={handleSearchChange}
           required
